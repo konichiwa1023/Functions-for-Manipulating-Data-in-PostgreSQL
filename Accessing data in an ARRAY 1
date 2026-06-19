@@ -1,0 +1,5 @@
+-- Select the title and special features column 
+SELECT 
+  title, 
+  special_features 
+FROM film;
