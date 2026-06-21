@@ -1,0 +1,2 @@
+-- Select the current timestamp without a timezone
+SELECT CAST(NOW() AS TIMESTAMP);
