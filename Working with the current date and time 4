@@ -1,0 +1,5 @@
+SELECT 
+    -- Select the current date
+    CURRENT_DATE,
+    -- CAST the result of the NOW() function to a date
+    CAST(NOW() AS DATE);
