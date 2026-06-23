@@ -1,0 +1,3 @@
+SELECT
+    CURRENT_TIMESTAMP(0)::timestamp AS right_now,
+    interval '5 days' + CURRENT_TIMESTAMP(0) AS five_days_from_now;
