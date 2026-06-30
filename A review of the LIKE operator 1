@@ -1,0 +1,5 @@
+-- Select all columns
+SELECT *
+FROM film
+-- Select only records that begin with the word 'GOLD'
+WHERE title LIKE 'GOLD%';
