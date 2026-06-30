@@ -1,0 +1,4 @@
+-- Concatenate the first_name and last_name 
+SELECT 
+    first_name || LPAD(last_name, LENGTH(last_name) + 1) AS full_name
+FROM customer;
