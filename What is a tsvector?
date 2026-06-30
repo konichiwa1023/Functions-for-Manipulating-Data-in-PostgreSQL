@@ -1,0 +1,3 @@
+-- Select the film description as a tsvector
+SELECT to_tsvector(description)
+FROM film;
