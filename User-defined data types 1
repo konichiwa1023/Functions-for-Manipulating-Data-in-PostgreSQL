@@ -1,0 +1,8 @@
+-- Create an enumerated data type, compass_position
+CREATE TYPE compass_position AS ENUM (
+    -- Use the four cardinal directions
+    'north',
+    'south',
+    'east',
+    'west'
+);
